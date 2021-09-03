@@ -42,9 +42,9 @@ public class TP3Prog3A {
             c.setIdComputadora(computadora.getId());
             componentes.add(c);
             
-            System.out.println("Oprima Y para agregar otro componete. De loc ontrario, cualquier otra tecla");
+            System.out.println("Oprima Y para agregar otro componete. De lo contrario, cualquier otra tecla");
             String salida = sc.nextLine();
-            if (salida.toUpperCase().equals("Y")) {
+            if (!salida.toUpperCase().equals("Y")) {
                 break;
             }
         }
